@@ -39,6 +39,8 @@ spec:
       retries: 3
     preserveValues: true
   values:
+    image:
+      repository: "otel/opentelemetry-collector-k8s"
     imagePullSecrets:
     - name: docker-hub-regcred
     mode: deployment
