@@ -13,7 +13,7 @@ data:
   cert_manager_version: "v1.13.5"
   cert_manager_issuer_name: "selfsigned-cluster-issuer"
   documents_objects_bucket_name: "documents"
-  milvus_version: "5"
+  milvus_version: "4.1.13"
   milvus_objects_bucket_name: "milvus"
   kafka_version: "26.8.5"
   model: "llama2_7b_chat"
